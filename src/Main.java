@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        // task1();
-        //task2();
+        task1();
+        task2();
         task3();
         task4();
 
@@ -73,8 +73,7 @@ public class Main {
                 System.out.printf("%d,", first[i]);
             } else System.out.printf("%d%n", first[i]);
         }
-
-
     }
+
 
 }
