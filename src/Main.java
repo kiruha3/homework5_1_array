@@ -57,7 +57,7 @@ public class Main {
         for (int j = third.length - 1; j >= 0; j--) {
             if (j == 0) {
                 System.out.printf("%s%n" , third[j]);
-            } else System.out.printf("%s,", third[j]);
+            } else System.out.printf("%s,", third[j]) ;
         }
         System.out.println();
     }
