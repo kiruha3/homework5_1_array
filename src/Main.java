@@ -18,10 +18,12 @@ public class Main {
 
     private static void task2() {
         int[] first = new int[12];
+        first[0] = 1;
+        first[1] = 2;
+        first[2] = 3;
         double[] second = {1.57, 7.654, 9.986};
         boolean[] third = {true, false};
         for (int i = 0; i < first.length; i++) {
-            first[i] = i + 1;
             if (i == first.length - 1) {
                 System.out.printf("%d %n", first[i]);
             } else System.out.printf("%d,", first[i]);
@@ -43,8 +45,10 @@ public class Main {
         int[] first = new int[12];
         double[] second = {1.57, 7.654, 9.986};
         boolean[] third = {true, false};
+        first[0] = 1;
+        first[1] = 2;
+        first[2] = 3;
         for (int i = first.length - 1; i >= 0; i--) {
-            first[i] = i + 1;
             if (i == 0) {
                 System.out.printf("%d %n", first[i]);
             } else System.out.printf("%d,", first[i]);
@@ -64,9 +68,11 @@ public class Main {
 
     private static void task4() {
         int[] first = new int[12];
+        first[0] = 1;
+        first[1] = 2;
+        first[2] = 3;
         for (int i = 0; i < first.length; i++) {
-            first[i] = i + 1;
-            if (i % 2 == 0) {
+            if (first[i] % 2 != 0) {
                 first[i]++;
             }
             if (i < first.length - 1) {
