@@ -64,7 +64,9 @@ public class Main {
         for (int j = second.length - 1; j >= 0; j--) {
             if (j == 0) {
                 System.out.printf("%s%n", second[j]);
-            } else System.out.printf("%s,", second[j]);
+            } else {
+                System.out.printf("%s,", second[j]);
+            }
         }
         for (int j = third.length - 1; j >= 0; j--) {
             if (j == 0) {
